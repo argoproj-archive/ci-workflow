@@ -45,7 +45,7 @@ steps:
       artifacts.BINARY: "%%steps.build.outputs.artifacts.BINARY%%"
 -
   approval:
-    template: argoapproval
+    template: argo-approval
 -
   release:
     template: example-release

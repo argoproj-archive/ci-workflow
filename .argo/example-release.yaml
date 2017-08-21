@@ -22,4 +22,5 @@ resources:
     mem_mib: 256
     cpu_cores: 0.1
 image: golang:1.6
-command: [sh, -c, 'cd /src && ls -ltr && sleep 10']
+command: ["sh", "-c"]
+args: [cd /src && ls -ltr && sleep 10]
