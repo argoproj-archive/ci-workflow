@@ -16,4 +16,4 @@ resources:
     cpu_cores: 0.1
 image: golang:1.6
 command: ["sh", "-c"]
-args: [cd /src && ls -ltr && go test -v]
+args: [cd /src && ls -ltr && sleep 120 && go test -v]

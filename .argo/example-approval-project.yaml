@@ -6,7 +6,6 @@ description: Run a CI workflow with approval step.
 actions:
     run:
         template: example-workflow-approval
-  
 
 categories: ["devops", "promoted"]
 publish:
