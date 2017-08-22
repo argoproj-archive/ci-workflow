@@ -11,9 +11,7 @@ inputs:
     REPO:
       default: "%%session.repo%%"
     TARGET_BRANCH:
-      default: "%%session.target_branch%%"
-    AUTHOR:
-      default: "%%session.author%%"
+      default: "master"
 
 outputs:
   artifacts:
