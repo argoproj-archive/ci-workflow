@@ -20,7 +20,7 @@ outputs:
     CODE:
       path: /src
 
-image: argoproj/axscm:v2.0
+image: argoproj/argoscm:v2.0
 resources:
   mem_mib: 256
   cpu_cores: 0.1
