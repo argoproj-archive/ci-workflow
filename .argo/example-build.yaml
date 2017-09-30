@@ -15,8 +15,9 @@ outputs:
       path: /src/main
 
 image: golang:1.6
+command: ["sh", "-c"]
+args: [cd /src && ls -ltr && go build main.go]
+
 resources:
   mem_mib: 256
   cpu_cores: 0.1
-command: ["sh", "-c"]
-args: [cd /src && ls -ltr && go build main.go]

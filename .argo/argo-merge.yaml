@@ -21,9 +21,9 @@ outputs:
       path: /src
 
 image: argoproj/argoscm:v2.0
-resources:
-  mem_mib: 256
-  cpu_cores: 0.1
 command: ["axscm"]
 args: ["clone", "%%inputs.parameters.REPO%%", "/src", "--branch", "%%inputs.parameters.TARGET_BRANCH%%", "--merge", "%%inputs.parameters.COMMIT%%", "--author", "%%inputs.parameters.AUTHOR%%", "--push"]
   
+resources:
+  mem_mib: 256
+  cpu_cores: 0.1

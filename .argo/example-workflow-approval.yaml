@@ -18,6 +18,7 @@ inputs:
       default: 0
     TIMEOUT_IN_MINUTES:
       default: 10
+
 steps:
 -
   checkout:

@@ -36,16 +36,6 @@ steps:
     arguments:
       artifacts.CODE: "%%steps.checkout.outputs.artifacts.CODE%%"
       artifacts.BINARY: "%%steps.build.outputs.artifacts.BINARY%%"
-  test4:
-    template: example-test
-    arguments:
-      artifacts.CODE: "%%steps.checkout.outputs.artifacts.CODE%%"
-      artifacts.BINARY: "%%steps.build.outputs.artifacts.BINARY%%"
-  test5:
-    template: example-test
-    arguments:
-      artifacts.CODE: "%%steps.checkout.outputs.artifacts.CODE%%"
-      artifacts.BINARY: "%%steps.build.outputs.artifacts.BINARY%%"
 -
   release:
     template: example-release
