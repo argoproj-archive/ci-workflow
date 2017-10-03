@@ -1,7 +1,7 @@
 ---
 type: workflow
 version: 1
-name: example-test-workflow
+name: example-workflow-test
 description: Example test workflow
 
 inputs:

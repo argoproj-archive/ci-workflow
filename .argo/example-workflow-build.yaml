@@ -1,7 +1,7 @@
 ---
 type: workflow
 version: 1
-name: example-build-workflow
+name: example-workflow-build
 description: Example build workflow
 
 inputs:
